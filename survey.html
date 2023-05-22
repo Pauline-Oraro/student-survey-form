@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/survey.css">
+    <title>SURVEY FORM</title>
+</head>
+<body>
+    <h1>SURVEY FORM</h1>
+    <h2>Thank you for taking time to help us improve our program</h2>
+    <form class="survey">
+        <fieldset>
+            <legend>PERSONAL INFORMATION</legend>
+            <label for="Name">NAME:</label>
+        <br>
+        <input type="text" name="fullName" id="Name">
+        <br>
+        <label for="Email">EMAIL ADDRESS:</label>
+        <br>
+        <input type="email" name="email-address" id="Email">
+        <br>
+        <label for="Age">AGE:</label>
+        <br>
+        <input type="number" name="age" id="Age" min="18" max="70">
+        </fieldset>
+        <fieldset>
+            <legend>UNIVERSITY DETAILS</legend>
+            <label for="University">UNIVERSITY:</label>
+            <br>
+            <input type="text" name="university" id="University">
+            <br>
+            <p>What year are you in?</p>
+            <input type="radio" name="yearOfStudy" id="Freshman"> <label for="Freshman">Freshman</label>
+            <br>
+            <input type="radio" name="yearOfStudy" id="Sophomore"> <label for="Sophomore">Sophomore</label>
+            <br>
+            <input type="radio" name="yearOfStudy" id="Junior"> <label for="Junior">Junior</label>
+            <br>
+            <input type="radio" name="yearOfStudy" id="Senior"> <label for="Senior">Senior</label>
+        </fieldset>
+        <fieldset>
+            <legend>SKILLS</legend>
+            <p>What skills are you interested in <span>(check all that apply)</span></p>
+            <input type="checkbox" name="AI" id="artificialIntelligence"> <label for="artificialIntelligence">Artificial Intelligence & Machine Learning</label>
+            <br>
+            <input type="checkbox" name="web" id="webDev"> <label for="webDev">Web Development</label>
+            <br>
+            <input type="checkbox" name="mobile" id="mobileApp"> <label for="mobileApp">Mobile App Development</label>
+            <br>
+            <input type="checkbox" name="internet" id="Internet"> <label for="Internet">Internet of Things</label>
+            <br>
+            <input type="checkbox" name="cloud" id="Cloud"> <label for="Cloud">Cloud Computing</label>
+            <br>
+            <input type="checkbox" name="cyber" id="Cyber"> <label for="Cyber">Cybersecurity</label>
+        </fieldset>
+        <fieldset>
+            <Legend>SUGGESTIONS</Legend>
+            <p>Any comments or suggestions:</p>
+        <textarea name="suggestion" id="Suggestion" cols="20" rows="10"></textarea>
+        </fieldset>
+        <input type="button" value="SUBMIT">
+    </form>
+</body>
+</html>
