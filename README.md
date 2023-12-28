@@ -1,7 +1,7 @@
 # Student survey-form
 This is a simple responsive survey form that entails input fields, radio, checkboxes and textarea fields.
 
-![Calculator image](https://raw.githubusercontent.com/Pauline-Oraro/interactive-javascript-calculator/ecbb9b5f4396e9058e2f46fce6fac1a7a94b529b/calc.PNG)
+![Calculator image](https://github.com/Pauline-Oraro/student-survey-form/blob/master/sur.PNG?raw=true)
 
 
 ## Demo
