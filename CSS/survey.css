@@ -2,36 +2,45 @@ body{
     background-color: rgb(107, 98, 98);
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.15em;
-
 }
+
 h1{
     font-size: 2.5em;
-    margin: 0;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
+
 h2{
-    margin-top: 0;
-    display: flex;
-    justify-content: center;
+    margin: 10px auto;
+    text-align: center;
 }
+
 form.survey{
     background-color: rgb(1, 16, 29);
     width: 100%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 label{
     color: white;
 }
+
 legend{
     text-align: center;
     color: rgb(124, 114, 114);
 }
+
 p{
     color: rgb(124, 114, 114);
 }
-input[type=text], input[type=email], input[type=number]{
+
+input[type=text], input[type=email], input[type=number], textarea{
     width: 100%;
+    font-size: 1.12em;
 }
+
 input[type=button]{
     display: flex;
     justify-content: center;
