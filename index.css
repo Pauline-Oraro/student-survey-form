@@ -39,6 +39,8 @@ p{
 input[type=text], input[type=email], input[type=number], textarea{
     width: 100%;
     font-size: 1.12em;
+    background-color: black;
+    color: white;
 }
 
 input[type=button]{
